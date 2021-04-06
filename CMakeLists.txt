@@ -6,6 +6,10 @@ cmake_minimum_required (VERSION 3.8)
 project ("LeetCode")
 
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 aux_source_directory(. DIR_SRCS)
 
 message(${DIR_SRCS})
