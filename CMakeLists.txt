@@ -12,7 +12,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 aux_source_directory(. DIR_SRCS)
 
-message(${DIR_SRCS})
+# message(${DIR_SRCS})
 
 # string(REPLACE "./" " " DIR_SRCS ${DIR_SRCS})
 
